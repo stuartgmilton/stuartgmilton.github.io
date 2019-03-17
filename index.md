@@ -12,7 +12,7 @@ permalink: /
 Just some more random text
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/stuartgmilton/web_test){: .btn .fs-10 .mb-2 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-3 .mb-2 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/stuartgmilton/web_test){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
