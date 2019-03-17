@@ -98,10 +98,10 @@ On the parent pages, add 2 YAML front matter parameters:
 ```yaml
 ---
 layout: default
-title: UI Components
+title: Ansible
 nav_order: 2
 has_children: true
-permalink: /docs/ui-components
+permalink: /docs/ansible
 ---
 ```
 
