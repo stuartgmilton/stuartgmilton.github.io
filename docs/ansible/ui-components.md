@@ -3,7 +3,7 @@ layout: default
 title: Ansible
 nav_order: 3
 has_children: true
-permalink: /docs/ui-components
+permalink: /docs/ansible
 ---
 
 # Ansible
