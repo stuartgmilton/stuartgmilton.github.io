@@ -1,2 +1,2 @@
 # Syntax highlighting
-highlighter:         pygments
+highlighter:         rouge
