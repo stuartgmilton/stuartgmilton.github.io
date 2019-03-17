@@ -119,7 +119,7 @@ On child pages, simply set the `parent:` YAML front matter to whatever the paren
 ---
 layout: default
 title: Buttons
-parent: UI Components
+parent: Ansible
 nav_order: 2
 ---
 ```
@@ -136,11 +136,11 @@ By default, all pages with children will automatically append a Table of Content
 ```yaml
 ---
 layout: default
-title: UI Components
+title: Ansible
 nav_order: 2
 has_children: true
 has_toc: false
-permalink: /docs/ui-components
+permalink: /docs/ansible
 ---
 ```
 
@@ -159,7 +159,7 @@ Child pages can also have children (grandchildren). This is achieved by using a 
 ---
 layout: default
 title: Buttons
-parent: UI Components
+parent: Ansible
 nav_order: 2
 has_children: true
 ---
@@ -170,7 +170,7 @@ has_children: true
 layout: default
 title: Buttons Child Page
 parent: Buttons
-grand_parent: UI Components
+grand_parent: Ansible
 nav_order: 1
 ---
 ```
@@ -180,7 +180,7 @@ This would create the following navigation structure:
 ```
 +-- ..
 |
-|-- UI Components
+|-- Ansible
 |   |-- ..
 |   |
 |   |-- Buttons
