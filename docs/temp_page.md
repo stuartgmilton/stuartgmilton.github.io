@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Search
+title: temp_page
 nav_order: 7
+nav_exclude: true
+search_exclude: true
 ---
 
 # Search
