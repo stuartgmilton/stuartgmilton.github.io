@@ -1,49 +1,22 @@
 ---
 layout: default
-title: Labels
+title: Admin User
 parent: Ansible
 nav_order: 3
 ---
 
 # Labels
 
-Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue.
+As Ansible is an automation tool, it would defeat the purpose if you had to enter a password after every command, thus we will allow your non-root user to run commands as the root user without entering a password.
 
-<div class="code-example" markdown="1">
-Default label
-{: .label }
+Instructions:
+ 1. Login to your VM as your non-root user.
+ 2. Edit the Sudoers file by running the following command;
 
-Blue label
-{: .label .label-blue }
+>  sudo visudo -f /etc/sudoers
 
-Stable
-{: .label .label-green }
-
-New release
-{: .label .label-purple }
-
-Coming soon
-{: .label .label-yellow }
-
-Deprecated
-{: .label .label-red }
-</div>
-```markdown
-Default label
-{: .label }
-
-Blue label
-{: .label .label-blue }
-
-Stable
-{: .label .label-green }
-
-New release
-{: .label .label-purple }
-
-Coming soon
-{: .label .label-yellow }
-
-Deprecated
-{: .label .label-red }
-```
+ 3. Comment the following line - '%wheel ALL=(ALL)  ALL'
+ 4. Uncomment the following line - '#%wheel ALL=(ALL)  NOPASSWD: ALL'
+ 5. Save and close the file.
+ 6. Test that you can sudo to root without a password, by entering 'sudo -i'
+ 7. Type exit to log out as the root user.
