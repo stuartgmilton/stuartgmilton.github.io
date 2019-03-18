@@ -5,7 +5,7 @@ parent: Ansible
 nav_order: 4
 ---
 
-# Labels
+# Create a non-root admin account
 
 As Ansible is an automation tool, it would defeat the purpose if you had to enter a password after every command, thus we will allow your non-root user to run commands as the root user without entering a password.
 

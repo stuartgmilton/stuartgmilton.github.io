@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Virtual Box
+title: Virtual Machine
 parent: Ansible
 nav_order: 3
 ---
 
-# Typography
+# Create a VM
 {: .no_toc }
 Pre-requisites:
  - You have the latest VirtualBox 6.x installed
