@@ -2,7 +2,7 @@
 layout: default
 title: Virtual Box
 parent: Ansible
-nav_order: 8
+nav_order: 2
 ---
 
 # Typography

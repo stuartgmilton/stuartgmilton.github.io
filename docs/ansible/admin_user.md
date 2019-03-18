@@ -2,7 +2,7 @@
 layout: default
 title: Labels
 parent: Ansible
-nav_order: 9
+nav_order: 3
 ---
 
 # Labels
