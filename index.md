@@ -9,7 +9,8 @@ permalink: /
 # Knowledge Base
 {: .fs-9 }
 
-This is an attempt at storing all of my useful tutorials and training pieces in a single place.{: .fs-6 .fw-300 }
+This is an attempt at storing all of my useful tutorials and training pieces in a single place.
+{: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
 [View it on GitHub](https://github.com/stuartgmilton/web_test){: .btn .fs-2 .mb-2 .mb-md-0 }
