@@ -8,5 +8,5 @@ permalink: /docs/ansible
 
 # Ansible
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+This should just be a simple explanation of what the training tutorial will be on with a contents list
 {: .fs-6 .fw-300 }
