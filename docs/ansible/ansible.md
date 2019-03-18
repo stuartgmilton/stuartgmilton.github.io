@@ -19,8 +19,4 @@ However both push and pull mode are supported. Ansible is a security focused too
 protocol. Ansible scripts (commonly known as playbooks) are written in YAML and are easy to read.
 {: .fs-4 .fw-200 }
 
-## Introduction
-Chuck some text in here explaining what the repo is and who its designed for.
-AWS & Ansible
-
 {:toc}

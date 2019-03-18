@@ -2,7 +2,7 @@
 layout: default
 title: Typography
 parent: Ansible
-nav_order: 1
+nav_order: 7
 ---
 
 # Typography
