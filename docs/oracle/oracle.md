@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oracle
-nav_order: 2
+nav_order: 5
 has_children: true
 permalink: /docs/oracle
 ---
