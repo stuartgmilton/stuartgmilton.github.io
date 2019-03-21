@@ -62,3 +62,5 @@ Instructions:
 Run 'proxy on' if working on URA or in the Office.
 Run 'proxy off' if working on an unrestricted network.
 Run 'proxy status' to find out the current setting.
+
+5. Ensure the proxy is on, and then update the OS by running 'sudo yum update -y'.

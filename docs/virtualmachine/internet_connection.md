@@ -20,7 +20,7 @@ Instructions:
 
 > sudo yum -y install cntlm
 
-5. We now need to create our authentication values for the CNTLM config.  Run the following command, swapping out the placeholders with your own info.
+5. We now need to create our authentication values for the CNTLM config.  Run the following command, swapping out the placeholders with your own info.  You will be asked to enter your domain password.
 
 > cntlm -H -u [USERNAME] -d [DOMAIN]
 
@@ -51,6 +51,3 @@ Instructions:
 > proxy=http://127.0.0.1:3128
 
 18. You can now reconnect to URA/ww930.
-19. Update the OS by running;
-
-> sudo yum update -y
