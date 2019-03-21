@@ -47,23 +47,18 @@ sudo systemctl show --property Environment docker
 Environment=HTTP_PROXY=http://127.0.0.1:3128/ HTTPS_PROXY=http://127.0.0.1:3128/
 
 
-Restart Docker:
+Restart Docker
 sudo systemctl restart docker
-
-NEED TO SET DOCKER TO START ON BOOT  -  chkconfig?
-
 
 Run your first docker container
 sudo docker run hello-world
 
-
-
 View all downloaded container images
 sudo docker images
-
 
 View all running containers
 sudo docker ps
 
-
+Get docker to start on boot:
+sudo systemctl enable docker
 {:toc}
