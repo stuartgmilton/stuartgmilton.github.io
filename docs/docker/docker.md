@@ -8,9 +8,9 @@ permalink: /docs/docker
 
 # Docker
 
-sudo yum install -y \\
-  yum-utils \
-  device-mapper-persistent-data \
+sudo yum install -y \
+  yum-utils \\
+  device-mapper-persistent-data \\
   lvm2
 
 sudo yum-config-manager \
