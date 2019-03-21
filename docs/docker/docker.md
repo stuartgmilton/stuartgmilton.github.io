@@ -8,7 +8,7 @@ permalink: /docs/docker
 
 # Docker
 
-sudo yum install -y \
+sudo yum install -y \\
   yum-utils \
   device-mapper-persistent-data \
   lvm2
