@@ -2,7 +2,7 @@
 layout: default
 title: Ansible Installation
 parent: Ansible
-nav_order: 8
+nav_order: 4
 ---
 
 # Ansible Installation

@@ -2,7 +2,7 @@
 layout: default
 title: Ansible Basics
 parent: Ansible
-nav_order: 9
+nav_order: 5
 ---
 
 # Ansible Basics
