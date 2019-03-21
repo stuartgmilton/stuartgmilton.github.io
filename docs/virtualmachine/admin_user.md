@@ -2,12 +2,12 @@
 layout: default
 title: Admin User
 parent: Virtual Machine
-nav_order: 3
+nav_order: 4
 ---
 
-# Create a non-root admin account
+# Allow passwordless sudo on your admin account
 
-As Ansible is an automation tool, it would defeat the purpose if you had to enter a password after every command, thus we will allow your non-root user to run commands as the root user without entering a password.
+As this account could be used for automation purposes, it would defeat the purpose if you had to enter a password after every command, thus we will allow your non-root user to run commands as the root user without entering a password.
 
 Instructions:
  1. Login to your VM as your non-root user.
