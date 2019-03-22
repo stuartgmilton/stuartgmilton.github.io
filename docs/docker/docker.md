@@ -43,6 +43,15 @@ Environment="HTTP_PROXY=http://127.0.0.1:3128/"
 Environment="HTTPS_PROXY=http://127.0.0.1:3128/"
 ```
 
+or use:
+```
+cat > /etc/systemd/system/docker.service.d/http-proxy.conf <<- "EOF"
+[Service]
+Environment="HTTP_PROXY=http://127.0.0.1:3128/"
+Environment="HTTPS_PROXY=http://127.0.0.1:3128/"
+EOF
+```
+
 Flush these changes by running:
 ```
 sudo systemctl daemon-reload
