@@ -17,3 +17,5 @@ nav_order: 4
  5. Click OK.
  6. Open Putty and connect to 127.0.0.1 on port 2222.  You will be asked to accept the VMs key fingerprint - click Yes.
  7. Login to the VM using your non-root account.
+
+[Next Topic](./admin_user.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }

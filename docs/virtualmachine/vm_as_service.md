@@ -32,3 +32,5 @@ VmServiceControl.exe -u
 VmServiceControl.exe -i
 ```
  14. It is now a decent idea to restart your windows laptop.  It will take a few minutes after the laptop boots until your VM boots in the background.  Test this by connecting directly via Putty, rather than opening VirtualBox.
+ 
+[Next Topic](./internet_connection.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }

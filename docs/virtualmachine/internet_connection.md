@@ -51,3 +51,5 @@ Instructions:
 > proxy=http://127.0.0.1:3128
 
 18. You can now reconnect to URA/ww930.
+
+[Next Topic](./cntlm_proxy.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
