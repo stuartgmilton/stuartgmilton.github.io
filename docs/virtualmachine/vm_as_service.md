@@ -21,14 +21,14 @@ Instructions:
  9. Change the VmName in the [VM0] section, to be that of your VM.  This name can be seen in VirtualBox, but in this example it should be 'AnsibleControlNode'.
  10. Change the ShutdownMethod in the [VM0] section to be 'acpipowerbutton'.
  11. Under the [Settings] section, add the following two lines.  They can be removed once the service is installed.  Save the file when finished.
- 
-> RunAsUser=.\USERNAME
-> UserPassword=PASSWORD
-
+```
+RunAsUser=.\USERNAME
+UserPassword=PASSWORD
+```
  12. Open a command prompt (as administrator) in the installation directory.  Run 'VmServiceControl.exe -i'.
  13. You may get an error saying the service already exists.  If so run these commands;
- 
-> VmServiceControl.exe -u
-> VmServiceControl.exe -i
-
+``` 
+VmServiceControl.exe -u
+VmServiceControl.exe -i
+```
  14. It is now a decent idea to restart your windows laptop.  It will take a few minutes after the laptop boots until your VM boots in the background.  Test this by connecting directly via Putty, rather than opening VirtualBox.
