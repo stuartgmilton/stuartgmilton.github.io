@@ -2,7 +2,7 @@
 layout: default
 title: Admin User
 parent: Virtual Machine
-nav_order: 4
+nav_order: 5
 ---
 
 # Allow passwordless sudo on your admin account

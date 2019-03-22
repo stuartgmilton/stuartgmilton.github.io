@@ -2,7 +2,7 @@
 layout: default
 title: Internet Connection
 parent: Virtual Machine
-nav_order: 6
+nav_order: 7
 ---
 
 # Connect the VM to the Internet

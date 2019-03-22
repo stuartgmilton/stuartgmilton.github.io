@@ -2,7 +2,7 @@
 layout: default
 title: Start VM as a service
 parent: Virtual Machine
-nav_order: 5
+nav_order: 6
 ---
 
 # Run your VM as a Windows Service

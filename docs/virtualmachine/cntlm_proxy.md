@@ -2,7 +2,7 @@
 layout: default
 title: Proxy Authentication
 parent: Virtual Machine
-nav_order: 7
+nav_order: 8
 ---
 
 # Tunnel through the Corporate Proxy
