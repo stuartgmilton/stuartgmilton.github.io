@@ -34,7 +34,8 @@ Instructions:
      sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
 ```
  22. Edit the ONBOOT line to equal 'set ONBOOT=yes'.  Save the file.
- 23. Restart the VM using 'reboot'
+ 23. Or sed -i '/ONBOOT/s/no/yes'/ /etc/sysconfig/network-scripts/ifcfg-enp0s3
+ 24. Restart the VM using 'reboot'
 
 [Next Topic](./port_forwarding.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
 
