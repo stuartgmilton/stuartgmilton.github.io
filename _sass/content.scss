@@ -31,7 +31,7 @@
         color: $grey-dk-000;
         content: counter(step-counter);
         counter-increment: step-counter;
-        @include fs-3;
+        @include fs-2;
 
         @include mq(sm) {
           top: 0.11em;
