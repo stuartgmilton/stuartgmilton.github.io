@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Internet Connection
-parent: Virtual Machine
+parent: Virtual Machine - VMWare
 nav_order: 7
 ---
 

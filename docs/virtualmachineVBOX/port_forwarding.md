@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Port Forwarding
-parent: Virtual Machine
+parent: Virtual Machine - VirtualBox
 nav_order: 4
 ---
 

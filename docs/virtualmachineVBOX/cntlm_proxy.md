@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Proxy Authentication
-parent: Virtual Machine
+parent: Virtual Machine - VirtualBox
 nav_order: 8
 ---
 

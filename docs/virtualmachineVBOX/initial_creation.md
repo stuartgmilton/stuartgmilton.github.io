@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Initial Creation
-parent: Virtual Machine
+parent: Virtual Machine - VirtualBox
 nav_order: 3
 ---
 

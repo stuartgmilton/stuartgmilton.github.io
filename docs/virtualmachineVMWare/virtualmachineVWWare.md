@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Virtual Machine
+title: Virtual Machine - VMWare
 nav_order: 2
 has_children: true
 permalink: /docs/virtualmachineVMWare

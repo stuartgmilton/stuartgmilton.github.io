@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Start VM as a service
-parent: Virtual Machine
+parent: Virtual Machine - VirtualBox
 nav_order: 6
 ---
 

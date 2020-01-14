@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Admin User
-parent: Virtual Machine
+parent: Virtual Machine - VirtualBox
 nav_order: 5
 ---
 
