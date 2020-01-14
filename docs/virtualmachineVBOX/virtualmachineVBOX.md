@@ -3,7 +3,7 @@ layout: default
 title: Virtual Machine
 nav_order: 2
 has_children: true
-permalink: /docs/virtualmachine
+permalink: /docs/virtualmachineVBOX
 ---
 
 # Create a VM
