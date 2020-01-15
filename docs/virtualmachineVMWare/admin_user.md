@@ -21,4 +21,4 @@ sudo visudo -f /etc/sudoers
  6. Test that you can sudo to root without a password, by entering 'sudo -i'
  7. Type exit to log out as the root user.
  
- [Next Topic](./vm_as_service.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
+ [Next Topic](./os_update.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
