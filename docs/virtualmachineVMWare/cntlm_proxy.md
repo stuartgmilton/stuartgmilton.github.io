@@ -2,7 +2,7 @@
 layout: default
 title: Proxy Authentication
 parent: Virtual Machine - VMWare
-nav_order: 8
+nav_order: 7
 ---
 
 # Tunnel through the Corporate Proxy

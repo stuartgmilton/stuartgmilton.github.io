@@ -2,7 +2,7 @@
 layout: default
 title: Admin User
 parent: Virtual Machine - VMWare
-nav_order: 5
+nav_order: 4
 ---
 
 # Allow passwordless sudo on your admin account

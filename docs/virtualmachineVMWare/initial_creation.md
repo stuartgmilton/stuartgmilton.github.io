@@ -58,9 +58,7 @@ Instructions:
  16. You can now set the root users password by clicking on it.  Enter the password twice and click Done.
  17. As we do not want to be using the root used by default, we will create another administrator account for our use. Click 'User Creation'.  Enter a Full name and User name.  
  I suggest 'ansible' for both.  Ensure the 'Make this user administrator' checkbox is checked.  Enter a password twice and then click on Done.
- 18. Wait for the installation to complete, and then click 'Finish configuration'
- 
- 19. Click the Reboot button, and wait for the VM to restart.
+ 18. Wait for the installation to complete, and then click 'Reboot'.  Wait for the VM to restart.
  20. Login to the VM using the non-root account.
  21. To connect the VM to your host, we now need to make a change to the VMs network card.
 ```
@@ -70,6 +68,6 @@ Instructions:
  23. Or sed -i '/ONBOOT/s/no/yes'/ /etc/sysconfig/network-scripts/ifcfg-enp0s3
  24. Restart the VM using 'reboot'
 
-[Next Topic](./port_forwarding.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
+[Next Topic](./admin_user.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
 
  ---

@@ -2,7 +2,7 @@
 layout: default
 title: Internet Connection
 parent: Virtual Machine - VMWare
-nav_order: 7
+nav_order: 6
 ---
 
 # Connect the VM to the Internet
