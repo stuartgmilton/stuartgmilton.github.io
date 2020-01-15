@@ -34,26 +34,32 @@ Instructions:
  24. Choose your desired language settings and click Continue.
  25. Select Installation Destination, and then ensure there is a tick on both disks. Select 'I will configure partitioning', then click Done.
  26. Click 'click here to create them automatically'
- rhel-root
- modify
- only select sdaa - then call it SystemVG  Save
+ 27. Select the root partition '/' or 'rhel-root' and click Modify.
+ 28. Ensure that only the first disk is selected, then change the Name field to 'SystemVG', then click Save.
+ 29. Change the root partition type to 'ext4', and the name to 'rootVG'
+ 30. Select the swap partition and change its name to 'swapVG'
+ 31. Click Done followed by 'Accept Changes'
+ 32. Disable KDump
+ 33. Click on Network & Hostname and change the hostname to something sensible.
+ 34. Click the OFF toggle at the top of the screen, the networking will now be active.
+ 35. Make a note of the networking settings on this screen, then click Configure.
+ 36. 
  
- / filesystem to ext4
- change name to rootVG
- 
- select swap
- change name to swapVG
- 
- DONE
- 
- 
- 
+ IPV4
+ Manual
+ Add
+ Copy the information into this window
+ Enter the DNS Address
+ Click Save
+ Click Done
  
  
  15. Begin the installation in the background by clicking 'Begin Installation'
  16. You can now set the root users password by clicking on it.  Enter the password twice and click Done.
- 17. As we do not want to be using the root used by default, we will create another administrator account for our use. Click 'User Creation'.  Enter a Full name and User name.  I suggest 'ansible' for both.  Ensure the 'Make this user administrator' checkbox is checked.  Enter the password twice and then click on Done.
+ 17. As we do not want to be using the root used by default, we will create another administrator account for our use. Click 'User Creation'.  Enter a Full name and User name.  
+ I suggest 'ansible' for both.  Ensure the 'Make this user administrator' checkbox is checked.  Enter a password twice and then click on Done.
  18. Wait for the installation to complete, and then click 'Finish configuration'
+ 
  19. Click the Reboot button, and wait for the VM to restart.
  20. Login to the VM using the non-root account.
  21. To connect the VM to your host, we now need to make a change to the VMs network card.
