@@ -9,8 +9,7 @@ permalink: /docs/virtualmachineVMWare
 # Create a VM
 {: .no_toc }
 Pre-requisites:
- - You have the latest VirtualBox 6.x installed
- - You have the appropriate version of the VirtualBox Extensions Pack installed
+ - You have the VMWare Workstation 15.x installed
  - You have Putty or a similar SSH Connection tool installed
 
  ---

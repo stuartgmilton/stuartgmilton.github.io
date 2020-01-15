@@ -9,20 +9,47 @@ nav_order: 3
 {: .no_toc }
 
 Instructions:
- 1. Download the latest Centos 7 Minimal ISO from [https://www.centos.org/download/](https://www.centos.org/download/)
- 2. Open VirtualBox and create a new Virtual Machine (VM) by clicking the New button.
- 3. Give the VM a representative name, such as 'AnsibleControlNode'.  Change the type to 'Linux', and the Version to 'Red Hat (64-bit).  Click Next.
- 4. Depending on the VM usage, update the value or accept the default 'Memory size' and click Next.
- 5. Accept the default 'Hard Disk' and click Next.
- 6. Accept the default 'Hard disk file type' and click Next.
- 7. Set the 'Storage on physical hard disk' to an appropriate level for your use case - click Next.
- 8. Depending on the VM usage, update the value or accept the default 'File location and size' and click Create.
- 9. Right click on the new VM in VirtualBox.  Select Settings > System > Motherboard.  Change the pointing device to USB Tablet.  Click OK
- 10. Right click on the new VM in VirtualBox.  Select Settings > Storage.  Select the empty disk drive under the IDE Controller.  Under Attributes, click the small CD image, then 'Choose Virtual Optical Disk File'.  Locate the CentOs 7 Minimal ISO.  Click Open.  Click OK.
- 11. Double click on the new VM in VirtualBox to power it on.
- 12. Select Install CentOs 7 using the cursor keys.  Hit Return.  After a short pause, you will be presented with a GUI to guide you through the installaton of CentOs.
- 13. Choose your desired language settings and click Continue.
- 14. Select Installation Destination, and accept the defaults by clicking Done.
+ 1. Download the latest RHEL 7 DVD ISO from [https://developers.redhat.com/products/rhel/download](https://developers.redhat.com/products/rhel/download)
+ 2. Open VMware Workstation and create a new Virtual Machine (VM) by pressing Ctrl + N.
+ 3. Select Custom (advanced) and click Next.
+ 4. Accept the default Hardware Compatability and click Next.
+ 5. Select 'I will install the Operating System later' and click Next.
+ 6. Select 'Linux' and then 'RHEL 7 64bit' and click Next.
+ 7. Give the VM a sensible name and choose where to store it then click Next.
+ 8. Accept the default Processor Configuration and click Next.
+ 9. Accept the default Memory Configuration and click Next.
+ 10. Select 'Use NAT' and click Next.
+ 11. Accept the default I/O Controller Type and click Next.
+ 12. Accept the default Disk Type and click Next.
+ 13. Create a new virtual disk and click Next.  10GB should suffice, click Next.
+ 14. Accept the default file name and click Next.
+ 15. Click Finish.
+ 16. Click 'Edit virtual machine settings'. Click 'Add...'. Select 'Hard Disk' and click Next.
+ 17. Accept the default Disk Type and click Next.
+ 18. Create a new virtual disk and click Next.  10GB should suffice, click Next.
+ 20. Accept the default file name and click Finish.
+ 21. Select the CD/DVD, then select 'Use ISO image file', then select the ISO downloaded earlier. Click OK.
+ 22. The VM can now be powered on.
+ 23. You will probably have to click within the window to gain control, then use the cursor keys to select Install and hit Enter.
+ 24. Choose your desired language settings and click Continue.
+ 25. Select Installation Destination, and then ensure there is a tick on both disks. Select 'I will configure partitioning', then click Done.
+ 26. Click 'click here to create them automatically'
+ rhel-root
+ modify
+ only select sdaa - then call it SystemVG  Save
+ 
+ / filesystem to ext4
+ change name to rootVG
+ 
+ select swap
+ change name to swapVG
+ 
+ DONE
+ 
+ 
+ 
+ 
+ 
  15. Begin the installation in the background by clicking 'Begin Installation'
  16. You can now set the root users password by clicking on it.  Enter the password twice and click Done.
  17. As we do not want to be using the root used by default, we will create another administrator account for our use. Click 'User Creation'.  Enter a Full name and User name.  I suggest 'ansible' for both.  Ensure the 'Make this user administrator' checkbox is checked.  Enter the password twice and then click on Done.
