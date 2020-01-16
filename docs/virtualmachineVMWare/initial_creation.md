@@ -60,13 +60,11 @@ Instructions:
  I suggest 'ansible' for both.  Ensure the 'Make this user administrator' checkbox is checked.  Enter a password twice and then click on Done.
  18. Wait for the installation to complete, and then click 'Reboot'.  Wait for the VM to restart.
  20. Login to the VM using the non-root account.
- 21. To connect the VM to your host, we now need to make a change to the VMs network card.
+ 21. To create our second Volume Group, execute the following commands.  If prompted about a DOS signature, enter 'y'.
 ```
-     sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+pvcreate /dev/sdb
+vgcreate vg_go_app_01 /dev/sdb
 ```
- 22. Edit the ONBOOT line to equal 'set ONBOOT=yes'.  Save the file.
- 23. Or sed -i '/ONBOOT/s/no/yes'/ /etc/sysconfig/network-scripts/ifcfg-enp0s3
- 24. Restart the VM using 'reboot'
 
 [Next Topic](./admin_user.md){: .btn .btn-primary .fs-2 .mb-2 .mb-md-0 .mr-2 }
 
