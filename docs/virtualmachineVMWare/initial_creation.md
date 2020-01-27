@@ -36,8 +36,8 @@ Instructions:
  26. Click 'click here to create them automatically'
  27. Select the root partition '/' or 'rhel-root' and click Modify.
  28. Ensure that only the first disk is selected, then change the Name field to 'SystemVG', then click Save.
- 29. Change the root partition type to 'ext4', and the name to 'rootVG'
- 30. Select the swap partition and change its name to 'swapVG'
+ 29. Change the root partition type to 'ext4', and the name to 'rootLV'
+ 30. Select the swap partition and change its name to 'swapLV'
  31. Click Done followed by 'Accept Changes'
  32. Disable KDump
  33. Click on Network & Hostname and change the hostname to something sensible.
